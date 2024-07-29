@@ -11,7 +11,7 @@ x=1 # başlangıç değerini f(0).f(1)<0 olmasından dolayı ve kökün
      # 1 e daha yakın olmasından dolayı 1 olarak seçtim.( f(0)=1  f(1)=-0,01__ )
 h=0  #hatanın her seferinde atanacağı değer
 t=0  #her yeni gelen kökü bir arka sıraya kaydırmak için kullandım
-x_kok=0  #her defasında bulunan yeni kokun atandığı değer
+x_kok=0  #her defasında bulunan yeni kokun atandığı değerleer
 iterasyon=0  #iterasyon sayımızı belirten değer
 d_iterasyon=[]  #iterasyon kok ve hatanın kaydedildiği listeler
 r_kok=[] 

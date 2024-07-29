@@ -3,7 +3,7 @@
 
 a=float(input("para girisi yapiniz"))
 if a==0 :
-    print("sifir girdiniz")
+    print("sifir  girdiniz")
 if (a/200)>0:
     b=int(a/200)
     print(b,"tane 200")
