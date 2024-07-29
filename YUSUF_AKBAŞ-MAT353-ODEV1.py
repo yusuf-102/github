@@ -26,7 +26,7 @@ while iterasyon<100 and h<10**(-15) :   # Newton Raphson yönteminin formülü v
     h_hata.append(h)
     t=x
     x=x_kok
-    if abs(h)>10**(-15):                 #elde edilen sonuçların yazdırılması
+    if abs(h)>10**(-15):                 #elde edilen verillerin yazdırılması
         print('iterasyon=',iterasyon)
         print('kok=',x_kok)
         print('hata=',h)
