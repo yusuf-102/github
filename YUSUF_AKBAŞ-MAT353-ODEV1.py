@@ -7,7 +7,7 @@ def f(x):
     return mt.cos(x)-x
 def f_turev(x):
     return -mt.sin(x)-1
-x=1 # başlangıç değerini f(0).f(1)<0 olmasından dolayı ve kökün
+x=1 # başlangıç sayısını f(0).f(1)<0 olmasından dolayı ve kökün
      # 1 e daha yakın olmasından dolayı 1 olarak seçtim.( f(0)=1  f(1)=-0,01__ )
 h=0  #hatanın her seferinde atanacağı değer
 t=0  #her yeni gelen kökü bir arka sıraya kaydırmak için kullandım
